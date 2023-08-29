@@ -9,9 +9,9 @@ function MainPages(props) {
   return (
     <main>
       <Presentation/>
-      <Services/>
+      {/* <Services/>
       <About/>
-      <Contact/>
+      <Contact/> */}
     </main>
   );
 }
