@@ -31,7 +31,7 @@
   box-sizing: border-box;
   user-select: none;
   color: var(--light);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* width */
 ::-webkit-scrollbar {
