@@ -12,7 +12,7 @@ function Presentation(props) {
       <div class="separator"></div>
       <h2 class="subtitle">Desarrollo de Software</h2>
     </section>
-  );
+  )
 }
 
 export default Presentation;

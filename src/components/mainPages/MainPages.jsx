@@ -13,7 +13,7 @@ function MainPages(props) {
       <About/>
       <Contact/> */}
     </main>
-  );
+  )
 }
 
 export default MainPages;
