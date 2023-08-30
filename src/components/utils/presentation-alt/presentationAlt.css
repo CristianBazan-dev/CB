@@ -14,8 +14,9 @@
 }
 
 .logo img {
-  max-width: 150%;
+  max-width: 100%;
   max-height: 80vh;
+  /* animation: rotate 10s alternate infinite ease-in-out; */
 }
 
 .presentation-alt-section .title {
@@ -55,4 +56,38 @@
   top: 80%;
 
   transform: translate(-50%, -75%);
+}
+
+@media only screen and (max-width: 430px) {
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin: auto;
+  }
+
+
+  .presentation-alt-section .text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentation-alt-section .text .title {
+    position: none;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .presentation-alt-section  .text .separator {
+    display: none;
+
+  }
+  
+  .presentation-alt-section  .text .subtitle {
+    font-size: 2em;
+    position: none;
+    left: 50%;
+  }
 }

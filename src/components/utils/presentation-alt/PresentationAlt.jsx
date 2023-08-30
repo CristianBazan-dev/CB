@@ -11,9 +11,12 @@ function PresentationAlt(props) {
             </div>
 
             
+            <div className="text">
             <h1 className="title">CB</h1>
             <div className="separator"></div>
             <h2 className="subtitle">Desarrollo de software</h2>
+            </div>
+
         </section>
     );
 }
