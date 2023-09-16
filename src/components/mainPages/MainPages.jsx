@@ -9,7 +9,7 @@ import PresentationAlt from "../utils/presentation-alt/PresentationAlt";
 function MainPages(props) {
   return (
     <main>
-      <PresentationAlt/>
+      <Presentation/>
       {/* <Services/>
       <About/>
       <Contact/> */}
