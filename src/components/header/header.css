@@ -1,0 +1,56 @@
+/* Header  */
+header {
+  background: var(--main);
+  z-index: 900;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  z-index: 900;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+/* Titles */
+a h1 {
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 430px) {
+  header {
+    max-height: 200px;
+    height: 100px;
+
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem 2rem;
+    margin: auto;
+  }
+  nav ul {
+    display: none;
+  }
+}
