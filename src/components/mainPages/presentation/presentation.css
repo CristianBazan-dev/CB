@@ -1,17 +1,15 @@
 .presentation-section {
-  background-color: var(--main);
+  background-color: #ffffff;
   width: 100%;
-}
-.presentation-section .title {
-  color: white;
-  z-index: 2;
-  position: absolute;
-  font-size: 3rem;
-  font-weight: lighter;
-  left: 50%;
-  top: 55%;
-  font-size: 10em;
-  transform: translate(-50%, -75%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;}
+
+.presentation-section img {
+  max-width: 500px;
+
 }
 
 .presentation-section .separator {
@@ -22,22 +20,17 @@
   align-items: center;
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 70%;
-  left: 25%;
+
   z-index: 2;
   color: var(--secondary);
   background: var(--secondary);
 }
 
 .presentation-section .subtitle {
-  color: white;
+  color: var(--main);
   z-index: 2;
-  position: absolute;
   font-size: 3rem;
   font-weight: lighter;
-  left: 50%;
-  top: 80%;
 
-  transform: translate(-50%, -75%);
+
 }

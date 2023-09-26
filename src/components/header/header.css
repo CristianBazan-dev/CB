@@ -9,8 +9,8 @@ nav {
   justify-content: space-between;
   color: white;
   z-index: 2;
-  position: relative;
-  padding: 4rem 8rem;
+  align-items: center;
+  margin: 1em 8em;
   z-index: 900;
 }
 

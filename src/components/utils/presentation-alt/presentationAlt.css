@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+
+
 }
 
 .logo {
@@ -20,6 +22,7 @@
 }
 
 .presentation-alt-section .title {
+
   color: white;
   z-index: 2;
   position: absolute;
@@ -47,7 +50,7 @@
 }
 
 .presentation-alt-section .subtitle {
-  color: white;
+  color: var;
   z-index: 2;
   position: absolute;
   font-size: 3rem;
