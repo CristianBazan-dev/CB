@@ -1,0 +1,25 @@
+header {
+  background: var(--main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: sticky;
+}
+
+header .logo {
+  margin-left: var(--sections-m);
+}
+
+header .logo img {
+  max-width: 70px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: var(--sections-m);
+}
+
+nav ul li {
+  margin-left: 2em;
+}

@@ -1,0 +1,25 @@
+.presentation-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-top: 5em;
+}
+
+.presentation-section .logo{
+
+}
+
+.presentation-section .logo img{
+   max-width: 500px;
+}
+
+.presentation-section .title h1{
+  font-weight: lighter;
+}
+
+.presentation-section .separator{
+   height: 2px;
+   background: var(--secondary);
+}
