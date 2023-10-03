@@ -23,3 +23,37 @@ nav ul {
 nav ul li {
   margin-left: 2em;
 }
+
+
+@media only screen and (max-width: 430px){
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  header .logo{
+    margin: 0;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 2em;
+    background: var(--main);
+    width: 80%;
+  }
+
+  nav ul {
+    margin: auto;
+  }
+
+  nav ul li{
+    font-size: .5em;
+  }
+} 

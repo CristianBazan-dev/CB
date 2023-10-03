@@ -1,5 +1,5 @@
 footer {
-  background: pink;
+  background: var(--light);
   display: flex;
   justify-content: center;
   align-items: center;

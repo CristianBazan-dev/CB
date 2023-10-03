@@ -4,7 +4,9 @@ import './footer.css'
 function Footer(props) {
     return (
         <footer>
-            Footer
+            <div className="logo">
+                <h1>CB</h1>
+            </div>
         </footer>
     );
 }

@@ -1,13 +1,11 @@
 import React from "react";
 import "./presentation.css";
 
-import Logo from "../../../assets/logo/Logo.png";
-
 function Presentation(props) {
   return (
     <section className="presentation-section">
       <div className="logo">
-        <img src={Logo} alt="" />
+        <img src="https://res.cloudinary.com/droyfngct/image/upload/v1696290871/Brand/Web/Logo%20-%20Compreso.png" alt="" />
       </div>
       <div className="title">
         <div className="separator"></div>

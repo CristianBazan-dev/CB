@@ -3,13 +3,11 @@ import "./header.css";
 import { Link } from "react-router-dom";
 
 
-import Logo from "../../assets/logo/Logo.png";
-
 function Header(props) {
   return (
     <header>
       <div className="logo">
-        <img src={Logo} alt="" />
+        <img src="https://res.cloudinary.com/droyfngct/image/upload/v1696290871/Brand/Web/Logo%20-%20Compreso.png" alt="" />
       </div>
 
       <nav>
