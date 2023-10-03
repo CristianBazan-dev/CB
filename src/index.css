@@ -22,7 +22,7 @@
 
   --title-h1-font-s: 1.5em;
 
-  --shadowStandard: rgba(0, 0, 0, 0.25) 10px 64px 65px,
+  --shadow-std: rgba(0, 0, 0, 0.25) 10px 64px 65px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
@@ -69,13 +69,33 @@ body {
 article {
   height: 100vh;
   display: grid;
-  grid-template-rows: 5em 1fr 5em;
+  grid-template-rows: 5em 1fr 7em;
   grid-template-columns: 100%;
 }
 
 
 h1{
   font-size: 4em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+section {
+  width: 100%;
+}
+
+
+section h2{
+  font-weight: bold;
+  color: var(--main);
+}
+
+
+section .title{
+  display: flex;
+  margin: var(--sections-m);
 }
 
 

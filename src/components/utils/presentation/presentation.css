@@ -1,44 +1,40 @@
-.presentation-section{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
-   margin-top: 5em;
+.presentation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5em;
 }
 
-.presentation-section .logo{
-
+.presentation-section .logo {
 }
 
-.presentation-section .logo img{
-   max-width: 500px;
+.presentation-section .logo img {
+  max-width: 500px;
 }
 
-.presentation-section .title h1{
+.presentation-section .brand-title h1 {
   font-weight: lighter;
 }
 
-.presentation-section .separator{
-   height: 2px;
-   background: var(--secondary);
+.presentation-section .separator {
+  height: 2px;
+  background: var(--secondary);
 }
 
-@media only screen and (max-width: 430px){
-   .presentation-section .logo img{
-      max-width: 400px;
-   }
+@media only screen and (max-width: 430px) {
+  .presentation-section .logo img {
+    max-width: 400px;
+  }
 
-   .presentation-section .separator{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      width: 80%;
-      height: 1px;
-      background: var(--secondary);
-   }
-   
-
-
+  .presentation-section .separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    background: var(--secondary);
+  }
 }

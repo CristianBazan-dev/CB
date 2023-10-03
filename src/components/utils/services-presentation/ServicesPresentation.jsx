@@ -4,7 +4,9 @@ import "./servicesPresentation.css";
 function ServicesPresentation(props) {
   return (
     <section className="services-presentation-section">
-      <h2>Servicios</h2>
+      <div className="title">
+        <h2>Servicios</h2>
+      </div>
     </section>
   );
 }
