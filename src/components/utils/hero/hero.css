@@ -1,17 +1,23 @@
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: var(--sections-m);
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--sections-m);
 }
 
-.hero .description{
-    width: 50%;
+.hero .description {
+  width: 50%;
 }
 
-.hero .description button{
-    background: var(--main);
-    color: var(--light);
-    padding: 20px ;
-    margin: var(--sections-m);
+.hero .description button {
+  background: var(--main);
+  color: var(--light);
+  padding: 20px;
+  margin: var(--sections-m);
+}
+
+@media only screen and (max-width: 430px) {
+  .hero {
+    flex-direction: column;
+  }
 }
