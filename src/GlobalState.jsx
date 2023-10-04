@@ -1,11 +1,8 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
-export const GlobalState = createContext() 
+export const GlobalState = createContext();
 
-export const DataProvider = ({children}) => {
-
-    const state = {
-
-    }
-    return <GlobalState.Provider value={state}>{children}</GlobalState.Provider>
-}
+export const DataProvider = ({ children }) => {
+  const state = {};
+  return <GlobalState.Provider value={state}>{children}</GlobalState.Provider>;
+};
