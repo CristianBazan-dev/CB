@@ -1,0 +1,17 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--sections-m);
+}
+
+.hero .description{
+    width: 50%;
+}
+
+.hero .description button{
+    background: var(--main);
+    color: var(--light);
+    padding: 20px ;
+    margin: var(--sections-m);
+}

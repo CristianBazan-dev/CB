@@ -26,7 +26,7 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  --sections-m: 7em;
+  --sections-m: 5%;
 }
 
 /* width */
@@ -54,7 +54,7 @@ body {
   width: 100%;
   height: 100%;
   color: var(--main);
-  text-transform: uppercase;
+ 
   font-family: "Montserrat", sans-serif;
   text-align: center;
   background: var(--light);
@@ -66,6 +66,7 @@ body {
   box-sizing: border-box;
 }
 
+/* Layout  */
 article {
   height: 100vh;
   display: grid;
@@ -73,34 +74,29 @@ article {
   grid-template-columns: 100%;
 }
 
-
-h1{
-  font-size: 4em;
-}
-
-h2{
-  font-size: 3em;
-}
-
 section {
   width: 100%;
 }
 
-
-section h2{
-  font-weight: bold;
-  color: var(--main);
+/* Text */
+h1 {
+  font-size: 4em;
 }
 
-
-section .title{
-  display: flex;
-  margin: var(--sections-m);
+h2 {
+  font-size: 3em;
 }
 
+/* Elements  */
+button {
+  background: var(--main);
+  color: var(--light);
+  padding: 20px;
+  margin: 0 var(--sections-m) var(--sections-m);
+}
 
-@media only screen and (max-width: 430px){
-  h1{
+@media only screen and (max-width: 430px) {
+  h1 {
     font-size: 2em;
   }
 }

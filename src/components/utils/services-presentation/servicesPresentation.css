@@ -1,0 +1,36 @@
+.services-presentation-section {
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service.first {
+  width: 100%;
+  background: var(--main);
+}
+
+.service .title h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--light);
+}
+
+.service .description h3 {
+  font-weight: 600;
+  color: var(--light);
+}
+.service .description p {
+  color: var(--light);
+  margin-left: var(--sections-m);
+  margin-right: var(--sections-m);
+}
+
+.service .description button {
+  background: var(--secondary);
+  color: var(--light);
+  margin-top: 2em;
+  margin-bottom: 0;
+}

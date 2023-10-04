@@ -15,29 +15,29 @@ header .logo img {
   max-width: 70px;
 }
 
+nav {
+  margin-right: var(--sections-m);
+}
 nav ul {
   display: flex;
-  margin-right: var(--sections-m);
 }
 
 nav ul li {
   margin-left: 2em;
 }
 
-
-@media only screen and (max-width: 430px){
-  header{
+@media only screen and (max-width: 430px) {
+  header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
-  
-  header .logo{
+
+  header .logo {
     margin: 0;
   }
 
-  nav{
+  nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ nav ul li {
     margin: auto;
   }
 
-  nav ul li{
-    font-size: .5em;
+  nav ul li {
+    font-size: 0.5em;
   }
-} 
+}
