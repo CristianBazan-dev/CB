@@ -10,7 +10,7 @@ function ServicesPresentation(props) {
   console.log(services);
   return (
     <section className="services-presentation-section">
-      {/* <div className="service">
+      <div className="service first">
         <div className="info">
           <div className="title">
             <h2>Páginas web</h2>
@@ -31,18 +31,121 @@ function ServicesPresentation(props) {
             alt=""
           />
         </div>
-      </div> */}
+      </div>
 
-      {services.map((service) => {
-        return (
-          <Service
-            title={service.title}
-            slogan={service.slogan}
-            description={service.description}
-            img={service.itemImg}
+      <div className="second-row">
+        <div className="service">
+          <div className="info">
+            <div className="title">
+              <h2>E-commerce</h2>
+            </div>
+            <div className="description">
+              <h3>Su nueva casa matriz. Su norte en el comercio.</h3>
+              <p>
+                Promocione y venda sus productos ingresando en la competencia globalizada. 
+              </p>
+              <button>See more</button>
+            </div>
+          </div>
+
+          <div className="item">
+            <img
+              src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="service">
+          <div className="info">
+            <div className="title">
+              <h2>Aplicaciones de gestión</h2>
+            </div>
+            <div className="description">
+              <h3>Organice. Estructure.</h3>
+              <p>
+                Proyecte el futuro de su empresa agilizando los procesos típicos de su entorno. 
+              </p>
+              <button>See more</button>
+            </div>
+          </div>
+
+          <div className="item">
+            <img
+              src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="service">
+        <div className="info">
+          <div className="title">
+            <h2>Aplicaciones de escritorio</h2>
+          </div>
+          <div className="description">
+            <h3>Proyecte. Distingase.</h3>
+            <p>
+             Traiga a la realidad material aquella idea abstracta. 
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+
+        <div className="item">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+            alt=""
           />
-        );
-      })}
+        </div>
+      </div>
+
+      <div className="service">
+        <div className="info">
+          <div className="title">
+            <h2>Páginas web</h2>
+          </div>
+          <div className="description">
+            <h3>Figure en la web. Figure en el mundo.</h3>
+            <p>
+              Estar en la web es llegar a cualquiers parte utilizando el click
+              como medio de transporte.
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+
+        <div className="item">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="service">
+        <div className="info">
+          <div className="title">
+            <h2>Marketing digital</h2>
+          </div>
+          <div className="description">
+            <h3>Figure en la web. Figure en el mundo.</h3>
+            <p>
+              Estar en la web es llegar a cualquiers parte utilizando el click
+              como medio de transporte.
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+
+        <div className="item">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
   );
 }

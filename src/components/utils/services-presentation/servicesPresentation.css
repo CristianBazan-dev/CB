@@ -1,6 +1,69 @@
 .services-presentation-section {
 }
 
-.services-presentation-section:nth-child(even){
+.services-presentation-section:nth-child(even) {
+}
 
+.service.first {
+  width: 100%;
+  background: var(--main);
+}
+
+.service .info {
+  margin: var(--sections-m);
+  margin-bottom: 2em;
+}
+
+.service .title h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--light);
+}
+
+.service .description h3 {
+  font-weight: 600;
+  color: var(--light);
+}
+.service .description p {
+  color: var(--light);
+  margin-left: var(--sections-m);
+  margin-right: var(--sections-m);
+}
+
+.service .description button {
+  background: var(--secondary);
+  color: var(--light);
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+/*second Row  */
+.services-presentation-section .second-row {
+  display: flex;
+
+  width: 100%;
+}
+
+.services-presentation-section .second-row .service {
+  width: 50%;
+}
+
+/* Second child in second row  and first child in third row*/
+
+.services-presentation-section .second-row .service:nth-child(2) .title h2,
+.services-presentation-section .service:nth-child(3) .title h2,
+.services-presentation-section
+  .second-row
+  .service:nth-child(2)
+  .description
+  h3,
+.services-presentation-section .service:nth-child(3) .description h3,
+.services-presentation-section .second-row .service:nth-child(2) .description p,
+.services-presentation-section .service:nth-child(3) .description p {
+  color: var(--main);
+}
+
+/* Forth row  */
+.services-presentation-section  .service:nth-child(4){
+    background: pink;
 }

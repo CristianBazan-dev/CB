@@ -12,7 +12,7 @@ function Hero(props) {
       </div>
 
       <div className="description">
-        <h1>Desarrollo de software & Consultoría digital</h1>
+        <h1>Desarrollo & Consultoría</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           facilis voluptate deserunt recusandae libero obcaecati quam laboriosam

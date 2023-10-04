@@ -6,9 +6,10 @@
 
 /* Childs  */
 
-.service:nth-child(1) {
+/* .service:nth-child(odd) {
   background: var(--main);
-}
+} */
+
 
 .service.first {
   width: 100%;

@@ -1,7 +1,10 @@
 import React, { useContext } from "react";
 import "./service.css";
 
-function Service({ title, slogan, description, img }) {
+function Service({ id, title, slogan, description, img }) {
+
+
+
   return (
     <div className="service">
       <div className="info">
