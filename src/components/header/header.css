@@ -4,7 +4,8 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  position: sticky;
+  /* position: fixed;
+  width: 100%;  */
 }
 
 header .logo {

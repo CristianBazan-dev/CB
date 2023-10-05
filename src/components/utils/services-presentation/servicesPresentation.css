@@ -31,10 +31,13 @@
 }
 
 .service .description button {
-  background: var(--secondary);
-  color: var(--light);
   margin-top: 2em;
   margin-bottom: 0;
+}
+
+.service:nth-child(1) .description button{
+  background: var(--secondary);
+  color: var(--light);
 }
 
 /*second Row  */
@@ -46,6 +49,10 @@
 
 .services-presentation-section .second-row .service {
   width: 50%;
+}
+
+.service:nth-child(1) {
+  background: var(--main);
 }
 
 /* Second child in second row  and first child in third row*/
@@ -64,6 +71,6 @@
 }
 
 /* Forth row  */
-.services-presentation-section  .service:nth-child(4){
-    background: pink;
+.services-presentation-section .service:nth-child(4) {
+  background: pink;
 }

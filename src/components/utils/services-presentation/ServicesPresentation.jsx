@@ -10,7 +10,8 @@ function ServicesPresentation(props) {
   console.log(services);
   return (
     <section className="services-presentation-section">
-      <div className="service first">
+
+      <div className="service">
         <div className="info">
           <div className="title">
             <h2>Páginas web</h2>
@@ -42,7 +43,8 @@ function ServicesPresentation(props) {
             <div className="description">
               <h3>Su nueva casa matriz. Su norte en el comercio.</h3>
               <p>
-                Promocione y venda sus productos ingresando en la competencia globalizada. 
+                Promocione y venda sus productos ingresando en la competencia
+                globalizada.
               </p>
               <button>See more</button>
             </div>
@@ -50,7 +52,7 @@ function ServicesPresentation(props) {
 
           <div className="item">
             <img
-              src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+              src="https://res.cloudinary.com/droyfngct/image/upload/v1696474308/Brand/Web/Banners/8_f3d53t.png"
               alt=""
             />
           </div>
@@ -64,7 +66,8 @@ function ServicesPresentation(props) {
             <div className="description">
               <h3>Organice. Estructure.</h3>
               <p>
-                Proyecte el futuro de su empresa agilizando los procesos típicos de su entorno. 
+                Proyecte el futuro de su empresa agilizando los procesos típicos
+                de su entorno.
               </p>
               <button>See more</button>
             </div>
@@ -86,9 +89,7 @@ function ServicesPresentation(props) {
           </div>
           <div className="description">
             <h3>Proyecte. Distingase.</h3>
-            <p>
-             Traiga a la realidad material aquella idea abstracta. 
-            </p>
+            <p>Traiga a la realidad material aquella idea abstracta.</p>
             <button>See more</button>
           </div>
         </div>
@@ -104,7 +105,7 @@ function ServicesPresentation(props) {
       <div className="service">
         <div className="info">
           <div className="title">
-            <h2>Páginas web</h2>
+            <h2>Aplicaciones móviles</h2>
           </div>
           <div className="description">
             <h3>Figure en la web. Figure en el mundo.</h3>
