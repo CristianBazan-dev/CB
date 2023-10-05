@@ -75,7 +75,7 @@ function ServicesPresentation(props) {
 
           <div className="item">
             <img
-              src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+              src="https://res.cloudinary.com/droyfngct/image/upload/v1696525787/Brand/Web/Banners/Surface_Laptop_Studio_zlnvsl.png"
               alt=""
             />
           </div>
@@ -96,7 +96,7 @@ function ServicesPresentation(props) {
 
         <div className="item">
           <img
-            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696534437/Brand/Web/Banners/Group_5_cfjutv.png"
             alt=""
           />
         </div>
@@ -119,7 +119,7 @@ function ServicesPresentation(props) {
 
         <div className="item">
           <img
-            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696534997/Brand/Web/Banners/mobile_esdbei.png"
             alt=""
           />
         </div>
@@ -128,7 +128,10 @@ function ServicesPresentation(props) {
       <div className="service">
         <div className="info">
           <div className="title">
+            <h2>Marketing</h2>
             <h2>Marketing digital</h2>
+            <h2>Branding</h2>
+            <h1>Identidad</h1>
           </div>
           <div className="description">
             <h3>Figure en la web. Figure en el mundo.</h3>
