@@ -17,6 +17,8 @@
 
   --padding: 1.5rem;
 
+  --wpp-green: #28f172;
+
   --br: 0.5em;
   --transition: transform 250ms ease-in-out cubic-bezier(0, 1, 0.78, 1);
 
@@ -92,7 +94,7 @@ button {
   background: var(--main);
   color: var(--light);
   padding: 20px;
-  margin: 0 var(--sections-m) var(--sections-m);
+  margin: 2em var(--sections-m) var(--sections-m);
 }
 
 @media only screen and (max-width: 430px) {

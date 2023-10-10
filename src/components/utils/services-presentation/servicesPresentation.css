@@ -4,6 +4,11 @@
 .services-presentation-section:nth-child(even) {
 }
 
+.services-presentation-section img {
+  max-width: 70%;
+  margin: auto;
+}
+
 .service.first {
   width: 100%;
   background: var(--main);
@@ -35,7 +40,7 @@
   margin-bottom: 0;
 }
 
-.service:nth-child(1) .description button{
+.service:nth-child(1) .description button {
   background: var(--secondary);
   color: var(--light);
 }
@@ -43,7 +48,6 @@
 /*second Row  */
 .services-presentation-section .second-row {
   display: flex;
-
   width: 100%;
 }
 
@@ -72,10 +76,95 @@
 
 /* Forth row  */
 .services-presentation-section .service:nth-child(4) {
-  background: pink;
+  background: rgb(238, 118, 138);
 }
 
-.services-presentation-section .service:nth-child(3) img{
-  max-width: 1000px;
-  margin: var(--sections-m) ;
+.services-presentation-section .service:nth-child(4) h2 {
+  color: var(--main);
+}
+
+.services-presentation-section .service:nth-child(4) h3 {
+  color: var(--secondary);
+}
+
+.services-presentation-section .service:nth-child(3) img {
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+/* fifth row  */
+.services-presentation-section .service:nth-child(5) h4 {
+  color: var(--main);
+  text-decoration: line-through;
+  font-weight: lighter;
+  margin-right: 2em;
+}
+
+.services-presentation-section .service:nth-child(5) .canceled {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.services-presentation-section .service:nth-child(5) .canceled h4:nth-child(1){
+  margin-left: var(--sections-m);
+}
+.services-presentation-section .service:nth-child(5) .canceled h4:nth-child(3){
+  margin-right: var(--sections-m);
+}
+
+.services-presentation-section .service:nth-child(5) h1 {
+  color: var(--main);
+  font-weight: bold;
+}
+
+.services-presentation-section .service:nth-child(5) h3,
+.services-presentation-section .service:nth-child(5) p {
+  color: var(--main);
+}
+
+.services-presentation-section .service:nth-child(5) img {
+  object-fit: cover;
+}
+
+.services-presentation-section .service:nth-child(5) {
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/droyfngct/image/upload/v1696957807/Brand/Web/Banners/Business_Cards_joou8j.png");
+  background-size: 100%;
+  background-position: 100%;
+  max-height: 1000px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.services-presentation-section .service:nth-child(5) .info {
+  width: 70%;
+  height: 100%;
+  background: #ffffffa8;
+  
+  /* box-shadow: var(--shadow-std); */
+}
+
+@media only screen and (max-width: 900px) {
+  .services-presentation-section .service {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-presentation-section .second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-presentation-section .second-row .service {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

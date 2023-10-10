@@ -19,7 +19,11 @@ function Hero(props) {
           repellendus! Alias maiores facere earum nesciunt voluptas cumque
           dolorum rerum nemo unde ad.
         </p>
-        <button>See more</button>
+
+        <div className="buttons">
+          <button>Servicios</button>
+          <button>Conocer CB</button>
+        </div>
       </div>
     </div>
   );

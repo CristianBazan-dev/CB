@@ -1,0 +1,25 @@
+.about-presentation-section{
+
+}
+
+.about-presentation-section .first-row{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.about-presentation-section .first-row .title h1{
+    font-weight: lighter;
+
+    
+}
+
+
+.about-presentation-section .first-row img{
+   
+    width: 40%;
+}

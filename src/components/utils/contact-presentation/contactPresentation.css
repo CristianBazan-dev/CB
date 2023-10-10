@@ -1,0 +1,28 @@
+.contact-presentation-section {
+}
+
+.contact-presentation-section h1 {
+  font-weight: lighter;
+}
+
+.contact-presentation-section .row {
+  display: flex;
+}
+
+.contact-presentation-section .row form {
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-presentation-section .row form input {
+  padding: 1em; 
+}
+
+.contact-presentation-section .row form input,
+.contact-presentation-section .row form textarea {
+  margin: 5px;
+  box-shadow: var(--shadow-std);
+}

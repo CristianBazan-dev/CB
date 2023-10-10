@@ -10,7 +10,6 @@ function ServicesPresentation(props) {
   console.log(services);
   return (
     <section className="services-presentation-section">
-
       <div className="service">
         <div className="info">
           <div className="title">
@@ -29,7 +28,7 @@ function ServicesPresentation(props) {
         <div className="item">
           <img
             src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
-            alt=""
+            alt="Ejemplo de las landing pages en CB"
           />
         </div>
       </div>
@@ -52,7 +51,7 @@ function ServicesPresentation(props) {
 
           <div className="item">
             <img
-              src="https://res.cloudinary.com/droyfngct/image/upload/v1696474308/Brand/Web/Banners/8_f3d53t.png"
+              src="https://res.cloudinary.com/droyfngct/image/upload/v1696693468/Brand/Web/Banners/E-commerce_lurthc.png"
               alt=""
             />
           </div>
@@ -119,7 +118,7 @@ function ServicesPresentation(props) {
 
         <div className="item">
           <img
-            src="https://res.cloudinary.com/droyfngct/image/upload/v1696534997/Brand/Web/Banners/mobile_esdbei.png"
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696692766/Brand/Web/Banners/Mobile_App_j8oghv.png"
             alt=""
           />
         </div>
@@ -128,26 +127,26 @@ function ServicesPresentation(props) {
       <div className="service">
         <div className="info">
           <div className="title">
-            <h2>Marketing</h2>
-            <h2>Marketing digital</h2>
-            <h2>Branding</h2>
+            <div className="canceled">
+              <h4>Marketing</h4>
+              <h4>Marketing digital</h4>
+              <h4>Branding</h4>
+            </div>
+
             <h1>Identidad</h1>
           </div>
           <div className="description">
-            <h3>Figure en la web. Figure en el mundo.</h3>
-            <p>
-              Estar en la web es llegar a cualquiers parte utilizando el click
-              como medio de transporte.
-            </p>
+            <h3>La distinción de su marca.</h3>
+            <p>Represente su misión en todos los estadios de su desempeño.</p>
             <button>See more</button>
           </div>
         </div>
 
         <div className="item">
-          <img
-            src="https://res.cloudinary.com/droyfngct/image/upload/v1696387013/Brand/Web/Banners/Notebook_-_web_ulgus9.png"
+          {/* <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696957791/Brand/Web/Banners/Business_Card_ltru6m.png"
             alt=""
-          />
+          /> */}
         </div>
       </div>
     </section>
