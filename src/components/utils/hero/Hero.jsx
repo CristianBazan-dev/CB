@@ -6,7 +6,7 @@ function Hero(props) {
     <div className="hero">
       <div className="logo">
         <img
-          src="https://res.cloudinary.com/droyfngct/image/upload/v1696290871/Brand/Web/Logo%20-%20Compreso.png"
+          src="https://res.cloudinary.com/droyfngct/image/upload/v1696991998/Brand/Web/Logo_-_Light_ow2ugs.png"
           alt=""
         />
       </div>

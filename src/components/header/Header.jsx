@@ -8,10 +8,12 @@ function Header(props) {
   return (
     <header>
       <div className="logo">
-        <img
-          src="https://res.cloudinary.com/droyfngct/image/upload/v1696290871/Brand/Web/Logo%20-%20Compreso.png"
-          alt=""
-        />
+        <Link to="/">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696991998/Brand/Web/Logo_-_Light_ow2ugs.png"
+            alt=""
+          />
+        </Link>
       </div>
 
       {/* <img src={Whatsapp} alt="" className="whatsapp-logo"/> */}

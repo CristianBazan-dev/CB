@@ -7,9 +7,16 @@
 
 .contact-presentation-section .row {
   display: flex;
+  justify-content: space-between;
+  margin: var(--sections-m);
 }
 
-.contact-presentation-section .row form {
+.contact-presentation-section .row .subtitle {
+  width: 50%;
+  text-align: left;
+}
+
+.contact-presentation-section .row form, .contact-presentation-section .row .phone {
   width: 30%;
   justify-content: center;
   margin: auto;
@@ -18,7 +25,7 @@
 }
 
 .contact-presentation-section .row form input {
-  padding: 1em; 
+  padding: 1em;
 }
 
 .contact-presentation-section .row form input,
@@ -26,3 +33,9 @@
   margin: 5px;
   box-shadow: var(--shadow-std);
 }
+
+.contact-presentation-section .row form textarea {
+  height: 200px; 
+  padding: 1em;
+}
+
