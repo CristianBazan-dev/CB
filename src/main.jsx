@@ -4,10 +4,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createHashRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import Services from "./pages/Services";
+import Services from "./pages/ServicesPages/ServicesPage/Services";
 import About from "./pages/About";
 import { DataProvider } from "./GlobalState";
 import Contact from "./pages/Contact";
+import Service from "./pages/ServicesPages/ServicePage/Service";
 
 const router = createHashRouter([
   {
@@ -24,8 +25,12 @@ const router = createHashRouter([
   },
   {
     path: "/contact",
-    element: <Contact/>
-  }
+    element: <Contact />,
+  },
+  {
+    path: "/services/:id",
+    element: <Service />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

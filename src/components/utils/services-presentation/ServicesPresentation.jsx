@@ -3,11 +3,11 @@ import "./servicesPresentation.css";
 import { GlobalState } from "../../../GlobalState";
 import { services } from "../../../api/Services";
 
-import Service from "../service/Service";
+
 
 function ServicesPresentation(props) {
   const state = useContext(GlobalState);
-  console.log(services);
+
   return (
     <section className="services-presentation-section">
       <div className="service">

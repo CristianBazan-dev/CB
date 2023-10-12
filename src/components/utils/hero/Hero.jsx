@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import { Link } from "react-router-dom";
 
 function Hero(props) {
   return (
@@ -21,7 +22,10 @@ function Hero(props) {
         </p>
 
         <div className="buttons">
-          <button>Servicios</button>
+          <Link to="/services">
+            <button>Servicios</button>
+          </Link>
+
           <button>Conocer CB</button>
         </div>
       </div>
