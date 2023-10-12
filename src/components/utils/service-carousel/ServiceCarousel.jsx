@@ -1,5 +1,5 @@
 import React from 'react';
-import './ServiceCarousel.css'
+import './serviceCarousel.css'
 
 
 function ServiceCarousel(props) {
