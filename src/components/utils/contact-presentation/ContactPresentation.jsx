@@ -1,19 +1,23 @@
 import React, { useRef } from "react";
 import "./contactPresentation.css";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast"; 
 
 function ContactPresentation(props) {
   const form = useRef();
+
+  toast.success("E-mail enviado. ¡Gracias por contactarse!");
+
+  console.log()
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_z1d0poe",
-        "template_bngx3gb",
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_EMAIL_TEMPLATE_ID ,
         form.current,
-        "S25zhI2I4q198i_AH"
+        import.meta.env.VITE_EMAIL_USER_ID
       )
       .then(
         (result) => {
