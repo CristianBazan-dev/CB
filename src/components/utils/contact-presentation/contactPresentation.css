@@ -39,3 +39,33 @@
   padding: 1em;
 }
 
+
+@media only screen and (max-width: 900px){
+  .contact-presentation-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-presentation-section .row .subtitle {
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .contact-presentation-section .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: var(--sections-m);
+  }
+
+  .contact-presentation-section .row form, .contact-presentation-section .row .phone {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}

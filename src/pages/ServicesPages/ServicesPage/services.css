@@ -35,4 +35,28 @@
 
 .grid-container .item img {
     max-width: 300px;
-}  
+}
+
+@media only screen and (max-width: 900px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: var(--sections-m);
+        gap: 2em 2em;
+        place-items: center;
+    }
+
+    .grid-container .item {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        max-width: 300px;
+        width: 300px;
+        max-height: 700px;
+        height: 400px;
+    }
+    
+}

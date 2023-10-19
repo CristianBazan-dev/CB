@@ -26,7 +26,7 @@ function Header(props) {
         <Whatsapp />
 
         <div className="deploy-msg-wpp">
-          <p>Contáctenos a través de Whatsapp</p>
+          <p>Contactese a través de Whatsapp</p>
         </div>
       </Link>
 

@@ -26,7 +26,7 @@ function Hero(props) {
             <button>Servicios</button>
           </Link>
 
-          <button>Conocer CB</button>
+          <button to="/about">Conocer CB</button>
         </div>
       </div>
     </div>

@@ -38,7 +38,11 @@ footer .sections .section h3 {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 430px) {
+footer .sections .section .section-title{
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
   footer {
     height: 150px;
     display: flex;
@@ -54,4 +58,9 @@ footer .sections .section h3 {
   footer h3 {
     display: none;
   }
+
+  footer .sections {
+    display: none;
+  }
+  
 }

@@ -16,8 +16,16 @@
   margin: var(--sections-m);
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 900px) {
   .hero {
     flex-direction: column;
   }
+
+  .hero .description {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+
 }

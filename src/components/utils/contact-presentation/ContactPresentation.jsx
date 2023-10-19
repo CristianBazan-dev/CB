@@ -6,12 +6,13 @@ import toast, { Toaster } from "react-hot-toast";
 function ContactPresentation(props) {
   const form = useRef();
 
-  toast.success("E-mail enviado. ¡Gracias por contactarse!");
+  
 
-  console.log()
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAIL_SERVICE_ID,

@@ -1,0 +1,46 @@
+.category-card {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  max-width: 300px;
+  width: 300px;
+  height: 800px;
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.category-card .title {
+  width: 100%;
+  background: var(--main);
+}
+
+.category-card .title h4 {
+  color: var(--light);
+  font-weight: bold;
+}
+
+.category-card .description{
+    margin: var(--sections-m);
+    font-style: italic;
+}
+
+.category-card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  font-weight: bold;
+}
+
+.category-card ul li svg {
+  max-width: 20px;
+  max-height: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.category-card button{
+    
+}

@@ -10,13 +10,13 @@ function Footer(props) {
           src="https://res.cloudinary.com/droyfngct/image/upload/v1696290871/Brand/Web/Logo%20-%20Compreso.png"
           alt=""
         />
-        <h3>| Desarrollo de Software & Consultoría digital</h3>
+        <p>| Desarrollo de Software & Consultoría digital</p>
       </div>
 
       <div className="sections">
         <div className="section">
           <Link to="/services">
-            <h3>Servicios</h3>
+            <p className="section-title">Servicios</p>
           </Link>
 
           <Link to="">
@@ -46,13 +46,13 @@ function Footer(props) {
 
         <div className="section">
           <Link to="/about">
-            <h3>Acerca de</h3>
+            <p className="section-title">Acerca de</p>
           </Link>
         </div>
 
         <div className="section">
           <Link to="/about">
-            <h3>Contacto</h3>
+            <p className="section-title">Contacto</p>
           </Link>
 
           <Link to="">

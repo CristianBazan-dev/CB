@@ -89,6 +89,14 @@ h2 {
   font-size: 3em;
 }
 
+h3{
+  font-size: 2em;
+}
+
+h4{
+  font-size: 1em;
+}
+
 /* Elements  */
 button {
   background: var(--main);
@@ -100,5 +108,22 @@ button {
 @media only screen and (max-width: 430px) {
   h1 {
     font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  h3{
+    font-size: 1em;
+  }
+  
+  h4{
+    font-size: .7em;
+  }
+
+  button{
+    padding: 15px;
+    font-size: .8em;
   }
 }

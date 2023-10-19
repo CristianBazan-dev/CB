@@ -88,7 +88,7 @@ nav ul li {
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 900px  ) {
   header {
     display: flex;
     justify-content: center;
@@ -117,5 +117,16 @@ nav ul li {
 
   nav ul li {
     font-size: 0.5em;
+  }
+
+  .whatsapp-icon-container {
+    display: none;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: fixed;
+    bottom: 2em;
+    right: var(--sections-m);
+    z-index: 10;
   }
 }

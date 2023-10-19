@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import twElements from "tw-elements/dist/plugin.cjs"
+
 export default {
   content: [
     "./index.html",
@@ -7,6 +9,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [ require('tw-elements/dist/plugin.cjs')],
+
 }
 

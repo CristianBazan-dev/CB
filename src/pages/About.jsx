@@ -11,12 +11,12 @@ function About(props) {
     <Header />
 
     <main>
-      <h1>About</h1>
+      <h3>Actualmente, está página está actualizandose para poder reflejar nuestra misión de la mejor manera posible.</h3>
+      <h4>En caso de querer saber más, comuniquese al <Link to="https://api.whatsapp.com/send?phone=543467445119&text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20CB%20con%20la%20siguiente%20consulta...">+54 9 3467 445119</Link></h4>
+      <h1>Sobre CB</h1>
 
+        
       
-      <Link to="/services">Servicios</Link>
-      <Link to="/about">Acerca de</Link>
-      <Link to="/">home</Link>
    
     </main>
 
