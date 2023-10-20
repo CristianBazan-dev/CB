@@ -95,7 +95,7 @@ export const services = [
     exampleImgs: [
       "https://res.cloudinary.com/droyfngct/image/upload/v1697806913/Brand/Web/Services/E-Commerce/E-commerce-1_ylehqw.png",
       "https://res.cloudinary.com/droyfngct/image/upload/v1697806940/Brand/Web/Services/E-Commerce/E-commerce-2_yvysby.png",
-      "https://res.cloudinary.com/droyfngct/image/upload/v1696534997/Brand/Web/Banners/mobile_esdbei.png",
+      "https://res.cloudinary.com/droyfngct/image/upload/v1697808785/Brand/Web/Services/E-Commerce/E-commerce-3_no9azz.png",
     ],
     text: [
       {
