@@ -99,55 +99,61 @@ export const services = [
     ],
     text: [
       {
-        title: "¿Por qué tener una página web?",
+        title: "¿Por qué tener un E-commerce?",
         p: [
-          "Una página web permite lograr un mayor alcance para su misión.",
-          "De esa manera, usted podrá lograr llegar a esos potenciales clientes, socios o interesados que generen la comunidad que lo caracterizará. ",
+          "El paso de los años ha demostrado la preferencia de los consumidores hacia las alternativas digitales.",
+          "Ahorrando costos de sucursales, invierta en su comercio digital y muestre sus productos al mundo. ",
         ],
       },
     ],
     categories: [
       {
-        title: "Portfolio profesional",
+        title: "Tienda",
         content:
-          "Ideal para profesionales y artistas. ¡Muestre de qué es capaz!",
+          "Ideal para emprendedores y artesanos.",
         items: [
           "Dominio",
           "Hosting",
-          "3 secciones",
-          "Diseño responsivo para celulares y tablets",
-          "Formulario de contacto",
-          "Botón de Whatsapp",
+          "5 secciones",
+          "Función de generación para productos",
+          "Hasta 5 categorías de productos",
+          "Control de usuarios",
+          "Botón de Whatsapp", 
           "Articulación con redes sociales",
-          "Mantenimiento sin cargo",
+          "Sin comisiones",
+          "Integración de Mercado Pago",
         ],
         icon: "",
         contact:
           "https://api.whatsapp.com/send?phone=543467445119&text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20CB%20para%20adquirir%20mi%20*Portfolio%20Profesional*.%20Quisiera%20saber%20más%20al%20respecto.",
       },
       {
-        title: "Landing page",
-        content: "Web dedicada a reflejar la misión de su empresa.",
+        title: "E-commerce",
+        content: "Expanda los horizontes de su empresa llegando al mundo.",
         items: [
           "Dominio",
           "Hosting",
-          "Diseño personalizado",
           "5 secciones",
-          "Diseño responsivo para celulares y tablets",
-          "Formulario de contacto",
+          "Función de generación para productos",
+          "Hasta 10 categorías de productos",
+          "Subcategorías de productos", 
+          "Sección de banners promocionales", 
           "Botón de Whatsapp",
-          "Optimización SEO para buscadores",
+          "Formulario de contacto",
+          "Mapa de ubicación", 
+          "Optimización SEO", 
           "Articulación con redes sociales",
-          "Certificado de seguridad",
+          "Sin comisiones",
+          "Integración de Mercado Pago"
         ],
         icon: "",
         contact:
           "https://api.whatsapp.com/send?phone=543467445119&text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20CB%20para%20adquirir%20mi%20*Landing%20Page*.%20Quisiera%20saber%20más%20al%20respecto.",
       },
       {
-        title: "Aplicación web",
+        title: "Casa matriz virtual",
         content:
-          "Refleje su idea y capte la mayor cantidad de usuarios posibles.",
+          "Potencie al máximo sus ventas.",
         items: [
           "Dominio",
           "Hosting",
