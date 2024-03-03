@@ -13,20 +13,16 @@ function Hero(props) {
       </div>
 
       <div className="description">
-        <h1>Desarrollo & Consultoría</h1>
+        <h1>Desarrollo</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          facilis voluptate deserunt recusandae libero obcaecati quam laboriosam
-          repellendus! Alias maiores facere earum nesciunt voluptas cumque
-          dolorum rerum nemo unde ad.
+          Transforme y materialice sus ideas ingresando al mundo digital a
+          través del reflejo de su misión.
         </p>
 
         <div className="buttons">
           <Link to="/services">
             <button>Servicios</button>
           </Link>
-
-          <button to="/about">Conocer CB</button>
         </div>
       </div>
     </div>

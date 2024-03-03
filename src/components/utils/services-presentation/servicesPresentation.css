@@ -14,6 +14,40 @@
   background: var(--main);
 }
 
+/* Ecommerce */
+
+.service:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  
+}
+
+.service:nth-child(2) .info {
+  text-align: left;
+}
+
+.service:nth-child(2) .info .title h2,
+.service:nth-child(2) .info .description h3,
+.service:nth-child(2) .info .description p {
+  color: var(--main);
+  margin: unset;
+}
+
+.service:nth-child(2) .info .description button {
+  margin: unset;
+}
+
+.service:nth-child(2) .item {
+  position: relative;
+}
+
+.service:nth-child(2) .item img {
+  max-width: 100%;
+}
+/* -------------------------  */
+
 .service .info {
   margin: var(--sections-m);
   margin-bottom: 2em;
@@ -169,7 +203,6 @@
   }
   .services-presentation-section .service:nth-child(1) {
     background: var(--main);
-
   }
 
   .services-presentation-section .second-row .service:nth-child(1) {
@@ -188,12 +221,19 @@
 
   .services-presentation-section .second-row .service:nth-child(2) {
     background: var(--main);
- 
   }
 
-  .services-presentation-section .second-row .service:nth-child(2) .title h2, 
-  .services-presentation-section .second-row .service:nth-child(2) .description h3,
-  .services-presentation-section .second-row .service:nth-child(2) .description p {
+  .services-presentation-section .second-row .service:nth-child(2) .title h2,
+  .services-presentation-section
+    .second-row
+    .service:nth-child(2)
+    .description
+    h3,
+  .services-presentation-section
+    .second-row
+    .service:nth-child(2)
+    .description
+    p {
     color: var(--light);
   }
 
@@ -201,11 +241,10 @@
     background: var(--secondary);
   }
 
-
   .services-presentation-section .service:nth-child(5) img {
     object-fit: cover;
   }
-  
+
   .services-presentation-section .service:nth-child(5) {
     width: 100%;
     background-image: url("https://res.cloudinary.com/droyfngct/image/upload/v1696957807/Brand/Web/Banners/Business_Cards_joou8j.png");
@@ -214,15 +253,13 @@
     height: 400px;
     background-repeat: no-repeat;
   }
-  
+
   .services-presentation-section .service:nth-child(5) .info {
     width: 80%;
     height: 90%;
     margin: auto;
     background: #ffffffa8;
-  
+
     /* box-shadow: var(--shadow-std); */
   }
-
-  
 }

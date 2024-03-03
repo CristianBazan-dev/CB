@@ -1,11 +1,23 @@
 header {
-  background: var(--main);
+  background: var(--light-lowOp);
+  backdrop-filter: blur(10px);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 2rem;
   align-items: center;
   color: #fff;
-  /* position: fixed;
-  width: 100%;  */
+  position: fixed;
+  width: 100%;    
+  animation: headerAppear 1s;
+}
+
+@keyframes headerAppear{
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 header .logo {
@@ -24,7 +36,13 @@ nav ul {
 }
 
 nav ul li {
+  color: var(--main);
   margin-left: 2em;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .whatsapp-icon-container {
@@ -36,12 +54,24 @@ nav ul li {
   bottom: 2em;
   right: var(--sections-m);
   z-index: 10;
+  animation: whatsappAppear .5s ease-in 1s;
+}
+
+@keyframes whatsappAppear{
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .whatsapp-icon-container svg {
   fill: var(--main);
   stroke: #fff;
-  stroke-width: .3px;
+  stroke-width: 0.3px;
   width: 80px;
   height: 80px;
   cursor: pointer;
@@ -88,7 +118,7 @@ nav ul li {
   }
 }
 
-@media only screen and (max-width: 900px  ) {
+@media only screen and (max-width: 900px) {
   header {
     display: flex;
     justify-content: center;

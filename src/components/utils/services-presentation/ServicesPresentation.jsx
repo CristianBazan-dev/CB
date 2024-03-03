@@ -33,7 +33,7 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
-      <div className="second-row">
+ 
         <div className="service">
           <div className="info">
             <div className="title">
@@ -57,7 +57,9 @@ function ServicesPresentation(props) {
           </div>
         </div>
 
-        <div className="service">
+
+
+      <div className="service">
           <div className="info">
             <div className="title">
               <h2>Aplicaciones de gestión</h2>
@@ -78,8 +80,7 @@ function ServicesPresentation(props) {
               alt=""
             />
           </div>
-        </div>
-      </div>
+        </div>  
 
       <div className="service">
         <div className="info">
