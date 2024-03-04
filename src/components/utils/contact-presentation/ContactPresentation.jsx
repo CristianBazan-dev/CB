@@ -6,8 +6,6 @@ import toast, { Toaster } from "react-hot-toast";
 function ContactPresentation(props) {
   const form = useRef();
 
-  
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,6 +35,8 @@ function ContactPresentation(props) {
 
   return (
     <section className="contact-presentation-section">
+
+
       <div className="title">
         <h1>Contacto</h1>
       </div>
