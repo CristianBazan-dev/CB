@@ -8,10 +8,12 @@ import Presentation from "../components/utils/presentation/Presentation";
 import ServicesPresentation from "../components/utils/services-presentation/ServicesPresentation";
 import AboutPresentation from "../components/utils/about-presentation/AboutPresentation";
 import ContactPresentation from "../components/utils/contact-presentation/ContactPresentation"
+import Whatsapp from "../components/utils/whatsapp/Whatsapp";
 
 function Home(props) {
   return (
     <article className="app">
+      <Whatsapp/>
       <Header />
 
       <main>
@@ -23,6 +25,8 @@ function Home(props) {
       </main>
 
       <Footer />
+
+
     </article>
   );
 }

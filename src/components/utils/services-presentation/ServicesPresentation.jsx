@@ -21,7 +21,7 @@ function ServicesPresentation(props) {
               Estar en la web es llegar a cualquiers parte utilizando el click
               como medio de transporte.
             </p>
-            <button>See more</button>
+            <button>Conocer</button>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function ServicesPresentation(props) {
                 Promocione y venda sus productos ingresando en la competencia
                 globalizada.
               </p>
-              <button>See more</button>
+              <button>Conocer</button>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ function ServicesPresentation(props) {
                 Proyecte el futuro de su empresa agilizando los procesos típicos
                 de su entorno.
               </p>
-              <button>See more</button>
+              <button>Conocer</button>
             </div>
           </div>
 
@@ -90,7 +90,7 @@ function ServicesPresentation(props) {
           <div className="description">
             <h3>Proyecte. Distingase.</h3>
             <p>Traiga a la realidad material aquella idea abstracta.</p>
-            <button>See more</button>
+            <button>Conocer</button>
           </div>
         </div>
 
@@ -113,7 +113,7 @@ function ServicesPresentation(props) {
               Estar en la web es llegar a cualquiers parte utilizando el click
               como medio de transporte.
             </p>
-            <button>See more</button>
+            <button>Conocer</button>
           </div>
         </div>
 
@@ -139,7 +139,7 @@ function ServicesPresentation(props) {
           <div className="description">
             <h3>La distinción de su marca.</h3>
             <p>Represente su misión en todos los estadios de su desempeño.</p>
-            <button>See more</button>
+            <button>Conocer</button>
           </div>
         </div>
 

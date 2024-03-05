@@ -37,9 +37,9 @@ function ContactPresentation(props) {
     <section className="contact-presentation-section">
 
 
-      <div className="title">
+      {/* <div className="title">
         <h1>Contacto</h1>
-      </div>
+      </div> */}
 
       <div className="row">
         <div className="subtitle">

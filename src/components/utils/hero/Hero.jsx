@@ -13,7 +13,7 @@ function Hero(props) {
       </div>
 
       <div className="description">
-        <h1>Desarrollo</h1>
+        <h1>Communicational Bridges</h1>
         <p>
           Transforme y materialice sus ideas ingresando al mundo digital a
           través del reflejo de su misión.

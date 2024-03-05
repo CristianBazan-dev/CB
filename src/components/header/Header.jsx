@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
-
-import Whatsapp from "../../assets/icons/social/wpp.svg?react";
 
 function Header(props) {
   return (
@@ -15,20 +12,6 @@ function Header(props) {
           />
         </Link>
       </div>
-
-      {/* <img src={Whatsapp} alt="" className="whatsapp-logo"/> */}
-
-      <Link
-        to="https://wa.link/kprtcf"
-        target="_blank"
-        className="whatsapp-icon-container"
-      >
-        <Whatsapp />
-
-        <div className="deploy-msg-wpp">
-          <p>Contactese a través de Whatsapp</p>
-        </div>
-      </Link>
 
       <nav id="nav">
         <ul>
@@ -47,9 +30,7 @@ function Header(props) {
         </ul>
       </nav>
 
-      {/* <Link to="" target="_blank" className="whatsapp-icon-container">
-        <Whatsapp />
-      </Link> */}
+      
     </header>
   );
 }

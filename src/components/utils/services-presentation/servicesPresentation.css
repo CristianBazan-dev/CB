@@ -1,9 +1,3 @@
-.services-presentation-section {
-}
-
-.services-presentation-section:nth-child(even) {
-}
-
 .services-presentation-section img {
   max-width: 70%;
   margin: auto;
@@ -14,6 +8,106 @@
   background: var(--main);
 }
 
+/* ---------- General configs  -------*/
+.service {
+  display: flex;
+  padding: 5rem;
+  padding-top: 1rem;
+}
+
+.service .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.service .info .description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.service .info .description button {
+  margin: unset;
+  max-width: 50%;
+}
+
+.service .item {
+  position: relative;
+}
+
+.service .item img {
+  max-width: 100%;
+}
+
+/* Odd  */
+
+.service:nth-child(odd) {
+  background: var(--main);
+}
+
+.service:nth-child(odd) .info {
+  text-align: left;
+}
+
+.service:nth-child(odd) .info .title h2,
+.service:nth-child(odd) .info .description h3,
+.service:nth-child(odd) .info .description p {
+  color: var(--light);
+  margin: unset;
+}
+
+.service:nth-child(odd) .info .description button {
+  background: var(--secondary);
+  margin: unset;
+}
+
+/* Even  */
+.service:nth-child(even) {
+  background: var(--light);
+}
+
+.service:nth-child(even) .info {
+  text-align: left;
+}
+
+.service:nth-child(even) .info .title h2,
+.service:nth-child(even) .info .description h3,
+.service:nth-child(even) .info .description p {
+  color: var(--main);
+  margin: unset;
+}
+
+.service:nth-child(even) .info .description button {
+  margin: unset;
+}
+
+.service:nth-child(even) .item {
+  position: relative;
+}
+
+.service:nth-child(even) .item img {
+  max-width: 100%;
+}
+
+/* Web pages  and Desktop*/
+
+.service:nth-child(1),
+.service:nth-child(4) {
+  flex-direction: column;
+}
+.service:nth-child(1) .info,
+.service:nth-child(4) .info{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.service:nth-child(1) .info .description button,
+.service:nth-child(4) .info .description button{
+  margin: auto;
+}
+
 /* Ecommerce */
 
 .service:nth-child(2) {
@@ -21,7 +115,6 @@
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  
 }
 
 .service:nth-child(2) .info {
@@ -45,6 +138,12 @@
 
 .service:nth-child(2) .item img {
   max-width: 100%;
+}
+
+/* Management  */
+.service:nth-child(3) {
+  display: flex;
+  background: var(--main);
 }
 /* -------------------------  */
 
@@ -93,92 +192,21 @@
   background: var(--main);
 }
 
-/* Second child in second row  and first child in third row*/
-
-.services-presentation-section .second-row .service:nth-child(2) .title h2,
-.services-presentation-section .service:nth-child(3) .title h2,
-.services-presentation-section
-  .second-row
-  .service:nth-child(2)
-  .description
-  h3,
-.services-presentation-section .service:nth-child(3) .description h3,
-.services-presentation-section .second-row .service:nth-child(2) .description p,
-.services-presentation-section .service:nth-child(3) .description p {
-  color: var(--main);
-}
-
-/* Forth row  */
-.services-presentation-section .service:nth-child(4) {
-  background: rgb(238, 118, 138);
-}
-
-.services-presentation-section .service:nth-child(4) h2 {
-  color: var(--main);
-}
-
-.services-presentation-section .service:nth-child(4) h3 {
-  color: var(--secondary);
-}
-
-.services-presentation-section .service:nth-child(3) img {
-  margin: auto;
-  margin-bottom: 2em;
-}
-
-/* fifth row  */
-.services-presentation-section .service:nth-child(5) h4 {
-  color: var(--main);
-  text-decoration: line-through;
-  font-weight: lighter;
-  margin-right: 2em;
-}
-
-.services-presentation-section .service:nth-child(5) .canceled {
+/* Identity  */
+.service:nth-child(6) {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2em;
-}
-
-.services-presentation-section .service:nth-child(5) .canceled h4:nth-child(1) {
-  margin-left: var(--sections-m);
-}
-.services-presentation-section .service:nth-child(5) .canceled h4:nth-child(3) {
-  margin-right: var(--sections-m);
-}
-
-.services-presentation-section .service:nth-child(5) h1 {
-  color: var(--main);
-  font-weight: bold;
-}
-
-.services-presentation-section .service:nth-child(5) h3,
-.services-presentation-section .service:nth-child(5) p {
-  color: var(--main);
-}
-
-.services-presentation-section .service:nth-child(5) img {
-  object-fit: cover;
-}
-
-.services-presentation-section .service:nth-child(5) {
-  width: 100%;
-  background-image: url("https://res.cloudinary.com/droyfngct/image/upload/v1696957807/Brand/Web/Banners/Business_Cards_joou8j.png");
+  background-image: url(https://res.cloudinary.com/droyfngct/image/upload/v1696957807/Brand/Web/Banners/Business_Cards_joou8j.png);
   background-size: 100%;
   background-position: 100%;
-  max-height: 1000px;
-  height: 500px;
+  max-height: 3000px;
+  height: 1000px;
   background-repeat: no-repeat;
+  position: sticky;
+  top: 0;
 }
 
-.services-presentation-section .service:nth-child(5) .info {
-  width: 70%;
-  height: 100%;
-  background: #ffffffa8;
-
-  /* box-shadow: var(--shadow-std); */
+.service:nth-child(6) .info{
+    margin-top: 1rem;
 }
 
 @media only screen and (max-width: 900px) {

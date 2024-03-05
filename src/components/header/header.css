@@ -45,78 +45,7 @@ nav ul li:hover {
   transition: 0.5s;
 }
 
-.whatsapp-icon-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  align-items: center;
-  position: fixed;
-  bottom: 2em;
-  right: var(--sections-m);
-  z-index: 10;
-  animation: whatsappAppear .5s ease-in 1s;
-}
 
-@keyframes whatsappAppear{
-  0%{
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  100%{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.whatsapp-icon-container svg {
-  fill: var(--main);
-  stroke: #fff;
-  stroke-width: 0.3px;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  z-index: 300;
-}
-
-.whatsapp-icon-container:hover svg {
-  filter: saturate(1);
-  stroke-width: 0.3;
-  stroke: var(--light);
-  transition: 0.5s;
-}
-
-.whatsapp-icon-container:hover .deploy-msg-wpp {
-  display: flex;
-  transition: 1s;
-  animation: wpp-msg 0.5s;
-}
-
-.whatsapp-icon-container .deploy-msg-wpp {
-  background-color: var(--main);
-  stroke: #fff;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  height: 65px;
-  z-index: 1;
-  color: var(--light);
-  padding: 10px;
-  border-radius: 15px 0 0 15px;
-  margin-right: -0.8em;
-  outline: 0.3px solid var(--light);
-}
-
-@keyframes wpp-msg {
-  0% {
-    margin-right: -3em;
-    opacity: 0;
-  }
-
-  100% {
-    margin-right: -0.8em;
-    opacity: 1;
-  }
-}
 
 @media only screen and (max-width: 900px) {
   header {

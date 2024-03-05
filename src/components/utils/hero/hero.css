@@ -7,7 +7,13 @@
 
 .hero .description {
   width: 50%;
-  text-align: right;
+  text-align: center;
+}
+
+.hero .description h1{
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
 }
 
 .hero .description button {
@@ -17,6 +23,7 @@
   margin: var(--sections-m);
   margin-right: 0;
 }
+
 
 @media only screen and (max-width: 900px) {
   .hero {
