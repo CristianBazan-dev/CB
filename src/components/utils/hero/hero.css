@@ -30,6 +30,10 @@
     flex-direction: column;
   }
 
+  .hero img{
+    display: none;
+  }
+
   .hero .description {
     display: flex;
     flex-direction: column;

@@ -207,87 +207,28 @@
 
 .service:nth-child(6) .info{
     margin-top: 1rem;
+    gap: 0;
 }
 
+.service:nth-child(6) .info .title .canceled {
+  margin-bottom: -1rem;
+}
+
+.service:nth-child(6) .info .title .canceled h4:nth-child(1){
+ opacity: 0.1;
+ font-size: 1rem;
+}
+.service:nth-child(6) .info .title .canceled h4:nth-child(2){
+  opacity: 0.2;
+  font-size: 1.1rem;
+ }
+ .service:nth-child(6) .info .title .canceled h4:nth-child(3){
+  opacity: 0.3;
+  font-size: 1.5rem;
+ }
+
 @media only screen and (max-width: 900px) {
-  .services-presentation-section .service {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .services-presentation-section .second-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .services-presentation-section .second-row .service {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .services-presentation-section .service:nth-child(1) {
-    background: var(--main);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(1) {
-    background: var(--light);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(1) h2,
-  .services-presentation-section .second-row .service:nth-child(1) h3,
-  .services-presentation-section .second-row .service:nth-child(1) p {
-    color: var(--main);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(1) button {
-    background: var(--main);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(2) {
-    background: var(--main);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(2) .title h2,
-  .services-presentation-section
-    .second-row
-    .service:nth-child(2)
-    .description
-    h3,
-  .services-presentation-section
-    .second-row
-    .service:nth-child(2)
-    .description
-    p {
-    color: var(--light);
-  }
-
-  .services-presentation-section .second-row .service:nth-child(2) button {
-    background: var(--secondary);
-  }
-
-  .services-presentation-section .service:nth-child(5) img {
-    object-fit: cover;
-  }
-
-  .services-presentation-section .service:nth-child(5) {
-    width: 100%;
-    background-image: url("https://res.cloudinary.com/droyfngct/image/upload/v1696957807/Brand/Web/Banners/Business_Cards_joou8j.png");
-    background-size: 150%;
-    background-position: 100%;
-    height: 400px;
-    background-repeat: no-repeat;
-  }
-
-  .services-presentation-section .service:nth-child(5) .info {
-    width: 80%;
-    height: 90%;
-    margin: auto;
-    background: #ffffffa8;
-
-    /* box-shadow: var(--shadow-std); */
+  .services-presentation-section {
+    display: none;
   }
 }

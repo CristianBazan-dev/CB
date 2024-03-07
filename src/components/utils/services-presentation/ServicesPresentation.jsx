@@ -33,7 +33,7 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
- 
+    {/* E-commerce  */}
         <div className="service">
           <div className="info">
             <div className="title">
@@ -57,7 +57,7 @@ function ServicesPresentation(props) {
           </div>
         </div>
 
-
+        {/* Management apps  */}
 
       <div className="service">
           <div className="info">
@@ -82,6 +82,7 @@ function ServicesPresentation(props) {
           </div>
         </div>  
 
+{/* Desktop apps  */}
       <div className="service">
         <div className="info">
           <div className="title">
@@ -102,6 +103,7 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
+{/* Mobile apps  */}
       <div className="service">
         <div className="info">
           <div className="title">
@@ -125,6 +127,8 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
+      {/* Identity  */}
+
       <div className="service">
         <div className="info">
           <div className="title">
@@ -138,7 +142,7 @@ function ServicesPresentation(props) {
           </div>
           <div className="description">
             <h3>La distinción de su marca.</h3>
-            <p>Represente su misión en todos los estadios de su desempeño.</p>
+
             <button>Conocer</button>
           </div>
         </div>

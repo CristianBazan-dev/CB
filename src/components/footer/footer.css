@@ -45,7 +45,7 @@ footer .sections .section .section-title{
 @media only screen and (max-width: 900px) {
   footer {
     height: 150px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;

@@ -31,7 +31,7 @@
 .contact-presentation-section .row form input,
 .contact-presentation-section .row form textarea {
   margin: 5px;
-  box-shadow: var(--shadow-std);
+  /* box-shadow: var(--shadow-std); */
 }
 
 .contact-presentation-section .row form textarea {
@@ -42,7 +42,7 @@
 
 @media only screen and (max-width: 900px){
   .contact-presentation-section {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 

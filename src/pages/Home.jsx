@@ -9,6 +9,7 @@ import ServicesPresentation from "../components/utils/services-presentation/Serv
 import AboutPresentation from "../components/utils/about-presentation/AboutPresentation";
 import ContactPresentation from "../components/utils/contact-presentation/ContactPresentation"
 import Whatsapp from "../components/utils/whatsapp/Whatsapp";
+import ServicesCarousel from "../components/utils/services-carousel/ServicesCarousel";
 
 function Home(props) {
   return (
@@ -19,6 +20,7 @@ function Home(props) {
       <main>
         <Presentation />
         <ServicesPresentation />
+        <ServicesCarousel/>
         <AboutPresentation/>
         <ContactPresentation/>
         
