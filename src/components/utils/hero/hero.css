@@ -30,6 +30,12 @@
     flex-direction: column;
   }
 
+  .hero .description h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+  }
+
   .hero img{
     display: none;
   }
