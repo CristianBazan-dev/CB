@@ -7,7 +7,7 @@ export const DataProvider = ({ children }) => {
   const [showModal, setShowModal] = useState(false); 
   const [modalImg, setModalImg] = useState(""); 
 
-  console.log(serviceSelected);
+  // console.log(serviceSelected);
   const state = {
     serviceSelected: [serviceSelected, setServiceSelected],
     showModal: [showModal, setShowModal],

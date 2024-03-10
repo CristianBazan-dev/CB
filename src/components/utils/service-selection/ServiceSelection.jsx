@@ -21,6 +21,7 @@ function ServiceSelection(props) {
             onClick={() => {
               setServiceSelected(service);
             }}
+            key={service.id}
           >
             <p>{service.title}</p>
           </Link>
