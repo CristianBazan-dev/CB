@@ -14,3 +14,10 @@
     gap: var(--sections-m);
     align-items: flex-start
 }
+
+@media (max-width: 900px){
+    .service-presentation-section{
+        width: 100%;
+        padding-top: 10rem;
+    }
+}

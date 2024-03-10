@@ -3,6 +3,7 @@ import "./servicePresentation.css";
 import { GlobalState } from "../../../GlobalState";
 import ServiceCarousel from "../service-carousel/ServiceCarousel";
 import CategoryCard from "../category-card/CategoryCard";
+import UnderConstruction from "../under-construction/UnderConstruction"
 
 function ServicePresentation(props) {
   const state = useContext(GlobalState);
@@ -14,9 +15,13 @@ function ServicePresentation(props) {
       <h2>{serviceSelected.slogan}</h2>
       <ServiceCarousel />
 
-      {serviceSelected.text.map((text) => {
+    <UnderConstruction/>
+      
+
+
+      {/* {serviceSelected.text.map((text) => {
         console.log(text);
-        return (
+        return ( 
           <div className="text">
             <h3>{text.title}</h3>
             {text.p.map((p) => {
@@ -24,10 +29,10 @@ function ServicePresentation(props) {
             })}
           </div>
         );
-      })}
+      })} */}
 
       <div className="categories-cards">
-        {serviceSelected.categories.map((serviceCard, index) => {
+        {/* {serviceSelected.categories.map((serviceCard, index) => {
           return (
             <CategoryCard
               key={index}
@@ -38,7 +43,7 @@ function ServicePresentation(props) {
               contact={serviceCard.contact}
             />
           );
-        })}
+        })} */}
       </div>
     </section>
   );

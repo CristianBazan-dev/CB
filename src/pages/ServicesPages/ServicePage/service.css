@@ -1,4 +1,14 @@
 .service-page {
     width: 100%;
   display: flex;
+  padding-top: 5rem;
+}
+
+@media (max-width: 900px) {
+  .service-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

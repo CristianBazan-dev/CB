@@ -12,8 +12,13 @@ import Whatsapp from "../components/utils/whatsapp/Whatsapp";
 import ServicesCarousel from "../components/utils/services-carousel/ServicesCarousel";
 
 function Home(props) {
+
+  const alert = () => {
+
+  }
+
   return (
-    <article className="app">
+    <article className="app" >
       <Whatsapp/>
       <Header />
 

@@ -9,23 +9,33 @@ import ServiceSelection from "../../../components/utils/service-selection/Servic
 import { GlobalState } from "../../../GlobalState";
 import { services } from "../../../api/Services";
 import Modal from "../../../components/utils/modal/Modal";
+import axios from "axios"
+
 
 function Service(props) {
   const page = useParams();
   const state = useContext(GlobalState);
 
+
   const [serviceSelected, setServiceSelected] = state.serviceSelected;
 
-  useEffect(() => {
+  const params = useParams()
 
-      services.map((service) => {
-        if (service.id == page.id) {
-          console.log(service)
+  const getService = () => {
+    const res = axios.get("./services.json").then((res) => {
+      // console.log(res)
+      res.data.map((service) => {
+        if (service.id == params.id) {
           setServiceSelected(service);
         }
       });
-  
-  }, [serviceSelected]);
+    });
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+   getService()
+  }, []);
 
   return (
     <article className="app">

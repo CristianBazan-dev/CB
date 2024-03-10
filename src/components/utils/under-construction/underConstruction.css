@@ -1,0 +1,35 @@
+.under-construction-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--sections-m) auto;
+}
+
+.under-construction-section .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.under-construction-section .text h2{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.under-construction-section .text a {
+    color: var(--main);
+    font-weight: 500;
+
+}
+
+.under-construction-section .text a:hover {
+    filter: brightness(5);
+    transition: filter 1s;
+    
+}
+
+.under-construction {
+    width: 100%;
+}

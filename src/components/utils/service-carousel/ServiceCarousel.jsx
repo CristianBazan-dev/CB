@@ -15,7 +15,7 @@ function ServiceCarousel(props) {
 
   return (
     <div className="service-carousel">
-      {serviceSelected.exampleImgs.map((sampleImgs, index) => {
+      {/* {serviceSelected.exampleImgs.map((sampleImgs, index) => {
         return (
           <div
             className={
@@ -32,7 +32,7 @@ function ServiceCarousel(props) {
             <img src={sampleImgs} alt="" />
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 }
