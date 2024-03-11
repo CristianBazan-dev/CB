@@ -53,7 +53,7 @@ function ContactPresentation(props) {
           <textarea placeholder="Escriba su mensaje..." name="message"required />
           <div class="g-recaptcha" data-sitekey="6LdO65QpAAAAAGsNLZFB6qiZlLjsyB_jIIvnQrvK" required></div>
 
-          <button>Enviar</button>
+          <button type="submit">Enviar</button>
         </form>
       </div>
 
