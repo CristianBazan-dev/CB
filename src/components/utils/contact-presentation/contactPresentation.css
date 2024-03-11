@@ -44,6 +44,10 @@
   padding-top: 1rem;
 }
 
+.contact-presentation-section .row form button[type="submit"]{
+  background-color: var(--main) !important;
+}
+
 
 @media only screen and (max-width: 900px){
   .contact-presentation-section {
