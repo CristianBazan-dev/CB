@@ -47,10 +47,11 @@ function ContactPresentation(props) {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" placeholder="Nombre completo" name="user_name" />
-          <input type="text" placeholder="E-mail" name="user_email" />
-          <input type="text" placeholder="Asunto" name="user_subject" />
-          <textarea placeholder="Escriba su mensaje..." name="message" />
+          <input type="text" placeholder="Nombre completo" name="user_name" required/>
+          <input type="email" placeholder="E-mail" name="user_email" required/>
+          <input type="text" placeholder="Asunto" name="user_subject" required/>
+          <textarea placeholder="Escriba su mensaje..." name="message"required />
+          <div class="g-recaptcha" data-sitekey="6LdO65QpAAAAAGsNLZFB6qiZlLjsyB_jIIvnQrvK"></div>
 
           <button>Enviar</button>
         </form>
