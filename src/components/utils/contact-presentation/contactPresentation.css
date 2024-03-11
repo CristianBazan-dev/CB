@@ -39,6 +39,11 @@
   padding: 1em;
 }
 
+.contact-presentation-section .row form .g-recaptcha {
+  margin: auto;
+  padding-top: 1rem;
+}
+
 
 @media only screen and (max-width: 900px){
   .contact-presentation-section {

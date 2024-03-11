@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import "./servicesPresentation.css";
 import { GlobalState } from "../../../GlobalState";
 import { services } from "../../../api/Services";
-
-
+import { Link } from "react-router-dom";
 
 function ServicesPresentation(props) {
   const state = useContext(GlobalState);
@@ -21,7 +20,10 @@ function ServicesPresentation(props) {
               Estar en la web es llegar a cualquiers parte utilizando el click
               como medio de transporte.
             </p>
-            <button>Conocer</button>
+
+            <Link to="/services/1">
+              <button>Conocer</button>
+            </Link>
           </div>
         </div>
 
@@ -33,56 +35,60 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
-    {/* E-commerce  */}
-        <div className="service">
-          <div className="info">
-            <div className="title">
-              <h2>E-commerce</h2>
-            </div>
-            <div className="description">
-              <h3>Su nueva casa matriz. Su norte en el comercio.</h3>
-              <p>
-                Promocione y venda sus productos ingresando en la competencia
-                globalizada.
-              </p>
-              <button>Conocer</button>
-            </div>
+      {/* E-commerce  */}
+      <div className="service">
+        <div className="info">
+          <div className="title">
+            <h2>E-commerce</h2>
           </div>
-
-          <div className="item">
-            <img
-              src="https://res.cloudinary.com/droyfngct/image/upload/v1696693468/Brand/Web/Banners/E-commerce_lurthc.png"
-              alt=""
-            />
+          <div className="description">
+            <h3>Su nueva casa matriz. Su norte en el comercio.</h3>
+            <p>
+              Promocione y venda sus productos ingresando en la competencia
+              globalizada.
+            </p>
+            <Link to="/services/2">
+              <button>Conocer</button>
+            </Link>
           </div>
         </div>
 
-        {/* Management apps  */}
+        <div className="item">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696693468/Brand/Web/Banners/E-commerce_lurthc.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      {/* Management apps  */}
 
       <div className="service">
-          <div className="info">
-            <div className="title">
-              <h2>Aplicaciones de gestión</h2>
-            </div>
-            <div className="description">
-              <h3>Organice. Estructure.</h3>
-              <p>
-                Proyecte el futuro de su empresa agilizando los procesos típicos
-                de su entorno.
-              </p>
+        <div className="info">
+          <div className="title">
+            <h2>Aplicaciones de gestión</h2>
+          </div>
+          <div className="description">
+            <h3>Organice. Estructure.</h3>
+            <p>
+              Proyecte el futuro de su empresa agilizando los procesos típicos
+              de su entorno.
+            </p>
+            <Link to="/services/3">
               <button>Conocer</button>
-            </div>
+            </Link>
           </div>
+        </div>
 
-          <div className="item">
-            <img
-              src="https://res.cloudinary.com/droyfngct/image/upload/v1696525787/Brand/Web/Banners/Surface_Laptop_Studio_zlnvsl.png"
-              alt=""
-            />
-          </div>
-        </div>  
+        <div className="item">
+          <img
+            src="https://res.cloudinary.com/droyfngct/image/upload/v1696525787/Brand/Web/Banners/Surface_Laptop_Studio_zlnvsl.png"
+            alt=""
+          />
+        </div>
+      </div>
 
-{/* Desktop apps  */}
+      {/* Desktop apps  */}
       <div className="service">
         <div className="info">
           <div className="title">
@@ -91,7 +97,9 @@ function ServicesPresentation(props) {
           <div className="description">
             <h3>Proyecte. Distingase.</h3>
             <p>Traiga a la realidad material aquella idea abstracta.</p>
-            <button>Conocer</button>
+            <Link to="/services/4">
+              <button>Conocer</button>
+            </Link>
           </div>
         </div>
 
@@ -103,7 +111,7 @@ function ServicesPresentation(props) {
         </div>
       </div>
 
-{/* Mobile apps  */}
+      {/* Mobile apps  */}
       <div className="service">
         <div className="info">
           <div className="title">
@@ -115,7 +123,9 @@ function ServicesPresentation(props) {
               Estar en la web es llegar a cualquiers parte utilizando el click
               como medio de transporte.
             </p>
-            <button>Conocer</button>
+            <Link to="/services/5">
+              <button>Conocer</button>
+            </Link>
           </div>
         </div>
 
@@ -143,7 +153,9 @@ function ServicesPresentation(props) {
           <div className="description">
             <h3>La distinción de su marca.</h3>
 
-            <button>Conocer</button>
+            <Link to="/services/6">
+              <button>Conocer</button>
+            </Link>
           </div>
         </div>
 
