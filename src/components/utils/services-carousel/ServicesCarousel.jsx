@@ -7,7 +7,7 @@ import { services } from "../../../api/Services";
 import { Link } from "react-router-dom";
 
 function ServicesCarousel(props) {
-  var settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,

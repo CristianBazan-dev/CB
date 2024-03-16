@@ -2,6 +2,10 @@ import React, { useContext, useState } from "react";
 import "./serviceCarousel.css";
 import { GlobalState } from "../../../GlobalState";
 
+import Slider from "react-slick"; 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function ServiceCarousel(props) {
   const state = useContext(GlobalState);
 
@@ -15,6 +19,7 @@ function ServiceCarousel(props) {
 
   return (
     <div className="service-carousel">
+      
       {/* {serviceSelected.exampleImgs.map((sampleImgs, index) => {
         return (
           <div
