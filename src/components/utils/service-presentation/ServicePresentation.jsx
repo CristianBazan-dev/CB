@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./servicePresentation.css";
-import { GlobalState } from "../../../GlobalState";s
+import { GlobalState } from "../../../GlobalState";
 
 import ServiceCarousel from "../service-carousel/ServiceCarousel";
 import CategoryCard from "../category-card/CategoryCard";
