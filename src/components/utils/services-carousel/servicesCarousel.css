@@ -1,38 +1,35 @@
 .services-carousel-section {
-    display: none;
+  display: none;
 }
 
-
-
 @media (max-width: 900px) {
-    .services-carousel-section {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: var(--sections-m);
-    }
+  .services-carousel-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .services-carousel-section .service-card {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
+  .services-carousel-section .service-card {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    width: 100%;
+  }
 
-    
-    
-    .services-carousel-section .service-card h3{
-        font-size: 2rem;
-        font-weight: 500;
-    }
-    
-    .services-carousel-section .service-card h4{
-        font-size: 1rem;
-        font-weight: 500;
-    }
-    
-    .services-carousel-section .service-card p{
-        font-size: 0.8rem;
-        font-weight: light;
-    }
+  .services-carousel-section .service-card h3 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .services-carousel-section .service-card h4 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .services-carousel-section .service-card p {
+    font-size: 0.8rem;
+    font-weight: light;
+  }
 }

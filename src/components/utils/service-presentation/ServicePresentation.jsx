@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./servicePresentation.css";
-import { GlobalState } from "../../../GlobalState";
+import { GlobalState } from "../../../GlobalState";s
+
 import ServiceCarousel from "../service-carousel/ServiceCarousel";
 import CategoryCard from "../category-card/CategoryCard";
 import UnderConstruction from "../under-construction/UnderConstruction"
@@ -9,11 +10,15 @@ function ServicePresentation(props) {
   const state = useContext(GlobalState);
 
   const [serviceSelected, setServiceSelected] = state.serviceSelected;
+  console.log(serviceSelected)
   return (
     <section className="service-presentation-section">
       <h1>{serviceSelected.title}</h1>
       <h2>{serviceSelected.slogan}</h2>
-      <ServiceCarousel />
+      <p>{serviceSelected.description}</p>
+      
+      {/* <ServiceCarousel /> */}
+
 
     <UnderConstruction/>
       
